@@ -27,6 +27,7 @@ urlpatterns = [
     ,
 
     name="home"),
+    path("",include("pages.urls")),
 
          
 
