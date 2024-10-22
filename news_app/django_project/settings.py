@@ -41,8 +41,9 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'accounts',
     'pages',
+    'articles',
 ]
-
+TIME_ZONE = "America/New_York" # new
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
